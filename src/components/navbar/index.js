@@ -1,8 +1,8 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({logo, small}) => {
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -43,12 +43,12 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <img
                 className="block lg:hidden h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-mark-on-dark.svg"
+                src={small}
                 alt="Workflow logo"
               />
               <img
                 className="hidden lg:block h-8 w-auto"
-                src="https://tailwindui.com/img/logos/workflow-logo-on-dark.svg"
+                src={logo}
                 alt="Workflow logo"
               />
             </div>
@@ -56,27 +56,27 @@ const Navbar = () => {
               <div className="flex">
                 <a
                   href="#"
-                  className="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Dashboard
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  Team
+                  Our Team
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
                   Projects
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
                 >
-                  Calendar
+                  Contact
                 </a>
               </div>
             </div>
