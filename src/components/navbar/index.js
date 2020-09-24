@@ -56,25 +56,25 @@ const Navbar = ({logo, small}) => {
               <div className="flex">
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
                 >
                   Dashboard
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
                 >
                   Our Team
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
                 >
                   Projects
                 </a>
                 <a
                   href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700 transition duration-150 ease-in-out"
+                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
                 >
                   Contact
                 </a>
