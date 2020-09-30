@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ad8eb0e644e4fb6ae50efb6dd65ceae",
+    "revision": "c5f4d072eacd06b6e359431589c61cd2",
     "url": "/bujangcreator/index.html"
   },
   {
-    "revision": "15e73910ee2a4c3e29aa",
+    "revision": "c0279a80325cc08d0b13",
     "url": "/bujangcreator/static/css/main.2a503f2f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bujangcreator/static/js/2.4753aaf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15e73910ee2a4c3e29aa",
-    "url": "/bujangcreator/static/js/main.dbffb80b.chunk.js"
+    "revision": "c0279a80325cc08d0b13",
+    "url": "/bujangcreator/static/js/main.d07b57d1.chunk.js"
   },
   {
     "revision": "906425fdc7501a72d2ee",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bujangcreator/static/css/main.2a503f2f.chunk.css",
-    "main.js": "/bujangcreator/static/js/main.dbffb80b.chunk.js",
-    "main.js.map": "/bujangcreator/static/js/main.dbffb80b.chunk.js.map",
+    "main.js": "/bujangcreator/static/js/main.d07b57d1.chunk.js",
+    "main.js.map": "/bujangcreator/static/js/main.d07b57d1.chunk.js.map",
     "runtime-main.js": "/bujangcreator/static/js/runtime-main.44373f30.js",
     "runtime-main.js.map": "/bujangcreator/static/js/runtime-main.44373f30.js.map",
     "static/js/2.4753aaf0.chunk.js": "/bujangcreator/static/js/2.4753aaf0.chunk.js",
     "static/js/2.4753aaf0.chunk.js.map": "/bujangcreator/static/js/2.4753aaf0.chunk.js.map",
     "index.html": "/bujangcreator/index.html",
-    "precache-manifest.0770d0b88d74d594ec71efc61497db1f.js": "/bujangcreator/precache-manifest.0770d0b88d74d594ec71efc61497db1f.js",
+    "precache-manifest.4d794a303d5ad6d2350479b9fef889f4.js": "/bujangcreator/precache-manifest.4d794a303d5ad6d2350479b9fef889f4.js",
     "service-worker.js": "/bujangcreator/service-worker.js",
     "static/css/main.2a503f2f.chunk.css.map": "/bujangcreator/static/css/main.2a503f2f.chunk.css.map",
     "static/js/2.4753aaf0.chunk.js.LICENSE.txt": "/bujangcreator/static/js/2.4753aaf0.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.44373f30.js",
     "static/js/2.4753aaf0.chunk.js",
     "static/css/main.2a503f2f.chunk.css",
-    "static/js/main.dbffb80b.chunk.js"
+    "static/js/main.d07b57d1.chunk.js"
   ]
 }
