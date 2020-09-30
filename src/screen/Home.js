@@ -1,9 +1,5 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
 import Card from "../components/card";
-import Logo from "../asset/logoNavbar.png";
-import SmallLogo from "../asset/logo.png";
 import CodeIll from "../asset/codeIllustration.svg";
 import Web from "../asset/web.svg";
 import Mobile from "../asset/mobile.svg";
@@ -13,15 +9,13 @@ import Sipallima from "../asset/sipallima.png";
 
 const Home = () => {
   return (
-    <div>
-      <div className="bg-gray-100 h-full">
-        <Navbar logo={Logo} small={SmallLogo} />
+    <div className="flex flex-col py-8">
         <div className="py-4 container mx-auto">
           <div className="flex flex-row h-auto">
             <div className="w-1/2 mr-4 mt-10">
               <h1 className="pb-4 text-5xl font-bold font-sans leading-none">
-                Kami ada <br />
-                saat anda membutuhkan.
+                Grow up <br />
+                your brand now.
               </h1>
               <p className="text-lg">
                 Bergerak di bidang web development, mobile app development, dan
@@ -71,7 +65,7 @@ const Home = () => {
           <h1 className="text-purp font-medium font-sans text-2xl leading-none">
             Apa yang kami tawarkan
           </h1>
-          <div className="container grid grid-flow-row grid-cols-3 grid-rows-2 gap-6 px-4 py-8 mx-auto">
+          <div className="container grid grid-flow-row grid-cols-3 gap-6 px-4 py-8 mx-auto">
             <Card
               picCLass="w-32 mt-4"
               title="Web Development"
@@ -87,13 +81,11 @@ const Home = () => {
             <Card
               picCLass="w-32 mt-4"
               foto={Design}
-              title="Graphic Design"
-              desc="Melayani jasa desain grafis untuk segala keperluan anda."
+              title="Content Design"
+              desc="Melayani jasa desain konten untuk segala keperluan anda."
             />
           </div>
         </div>
-      </div>
-      <Footer />
     </div>
   );
 };

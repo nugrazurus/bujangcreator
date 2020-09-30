@@ -1,6 +1,14 @@
 import React from "react";
+import Logo from "../../asset/logoNavbar.png";
+import SmallLogo from "../../asset/logo.png";
+import {
+  BrowserRouter as Router,
+  Link,
+  Route,
+  NavLink,
+} from "react-router-dom";
 
-const Navbar = ({logo, small}) => {
+const Navbar = () => {
   return (
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -43,41 +51,27 @@ const Navbar = ({logo, small}) => {
             <div className="flex-shrink-0">
               <img
                 className="block lg:hidden h-8 w-auto"
-                src={small}
+                src={SmallLogo}
                 alt="Workflow logo"
               />
               <img
                 className="hidden lg:block h-8 w-auto"
-                src={logo}
+                src={Logo}
                 alt="Workflow logo"
               />
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex">
-                <a
-                  href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
-                >
-                  Dashboard
-                </a>
-                <a
-                  href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
-                >
-                  Our Team
-                </a>
-                <a
-                  href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
-                >
-                  Projects
-                </a>
-                <a
-                  href="#"
-                  className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out"
-                >
-                  Contact
-                </a>
+                <Link to="/">
+                  <button className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-purple-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out">
+                    Dashboard
+                  </button>
+                </Link>
+                <Link to="/contact">
+                  <button className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-purple-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out">
+                    Contact
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
