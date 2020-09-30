@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3871909d91bafaf296a67706149df96",
+    "revision": "4ad8eb0e644e4fb6ae50efb6dd65ceae",
     "url": "/bujangcreator/index.html"
   },
   {
-    "revision": "4b20cef757b09923d63b",
+    "revision": "15e73910ee2a4c3e29aa",
     "url": "/bujangcreator/static/css/main.2a503f2f.chunk.css"
   },
   {
-    "revision": "d164dd7cb94b05422dca",
-    "url": "/bujangcreator/static/js/2.1db73aa0.chunk.js"
+    "revision": "458556ab7d1c0cdc69af",
+    "url": "/bujangcreator/static/js/2.4753aaf0.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/bujangcreator/static/js/2.1db73aa0.chunk.js.LICENSE.txt"
+    "revision": "9f90cde4396c52b73cc0a6bcd8267b7b",
+    "url": "/bujangcreator/static/js/2.4753aaf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4b20cef757b09923d63b",
-    "url": "/bujangcreator/static/js/main.a2748264.chunk.js"
+    "revision": "15e73910ee2a4c3e29aa",
+    "url": "/bujangcreator/static/js/main.dbffb80b.chunk.js"
   },
   {
     "revision": "906425fdc7501a72d2ee",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d603ed669287e205ceae6373f19b04ea",
     "url": "/bujangcreator/static/media/codeIllustration.d603ed66.svg"
+  },
+  {
+    "revision": "5f3e88077dd2d52a5c8dc6777444847d",
+    "url": "/bujangcreator/static/media/contactUs.5f3e8807.svg"
   },
   {
     "revision": "0a3b9539d1aaf9adcc00a76d3de292bc",
