@@ -12,10 +12,10 @@ function App() {
         <div className="relative min-h-screen">
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Home}>
+            <Route exact path="/bujangcreator/" component={Home}>
               {/* <Home /> */}
             </Route>
-            <Route exact path="/contact" component={Contact}>
+            <Route exact path="/bujangcreator/contact" component={Contact}>
               {/* <Contact /> */}
             </Route>
           </Switch>

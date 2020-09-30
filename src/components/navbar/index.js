@@ -62,12 +62,12 @@ const Navbar = () => {
             </div>
             <div className="hidden sm:block sm:ml-6">
               <div className="flex">
-                <Link to="/">
+                <Link to="/bujangcreator/">
                   <button className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-purple-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out">
                     Dashboard
                   </button>
                 </Link>
-                <Link to="/contact">
+                <Link to="/bujangcreator/contact">
                   <button className="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-black hover:text-white hover:bg-purple-700 focus:outline-none focus:text-white focus:bg-purple-700 transition duration-150 ease-in-out">
                     Contact
                   </button>
